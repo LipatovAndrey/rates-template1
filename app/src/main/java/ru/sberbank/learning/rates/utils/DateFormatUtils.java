@@ -14,8 +14,8 @@ import java.util.Date;
  */
 public final class DateFormatUtils {
 
-    private static SimpleDateFormat sRequestFormat = new SimpleDateFormat("dd/MM/yyyy");
-    private static SimpleDateFormat sResponseFormat = new SimpleDateFormat("dd.MM.yyyy");
+    private static final SimpleDateFormat sRequestFormat = new SimpleDateFormat("dd/MM/yyyy");
+    private static final SimpleDateFormat sResponseFormat = new SimpleDateFormat("dd.MM.yyyy");
 
     private DateFormatUtils() {
 

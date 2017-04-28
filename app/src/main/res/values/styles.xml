@@ -15,4 +15,16 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <style name="Large" parent="android:TextAppearance.Holo.Large">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        
+    </style>
+    <style name="Medium" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Small" parent="android:TextAppearance.Holo.Small">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
