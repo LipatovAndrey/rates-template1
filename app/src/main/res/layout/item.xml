@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/NumCode"
-        android:layout_width="100dp"
+        android:layout_width="60dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:gravity="center"
@@ -14,7 +14,7 @@
         />
     <TextView
         android:id="@+id/CharCode"
-        android:layout_width="100dp"
+        android:layout_width="60dp"
         android:layout_height="50dp"
         android:layout_below="@+id/NumCode"
         android:gravity="center"

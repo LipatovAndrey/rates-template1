@@ -102,10 +102,12 @@ public class MyAdapter extends BaseAdapter {
         @Override
 
         protected void onPostExecute(InfoBundle bundle) {
-            if (bundle == null){
+
+            ViewHolder myHolder = holder.get();
+            if (bundle == null||myHolder==null){
                 return;
             }
-            ViewHolder myHolder = holder.get();
+
             List<Currency> curlist = bundle.currenciesList.getCurrencies();
             count = curlist.size();
             if (position < count){
