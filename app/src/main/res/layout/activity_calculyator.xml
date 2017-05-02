@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.sberbank.learning.rates.ActivityCalculyator">
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/CharCodeCalc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/editText"/>
+    <TextView
+        android:id="@+id/summ"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignLeft="@id/editText"
+        android:layout_below="@id/editText"/>
+    <TextView
+        android:id="@+id/rubles"
+        android:layout_width="50dp"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/CharCodeCalc"
+        android:layout_below="@id/CharCodeCalc"/>
+</RelativeLayout>
